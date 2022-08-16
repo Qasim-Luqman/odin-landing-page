@@ -101,7 +101,6 @@ body {
 }
 
 .info {
-    /* flex-shrink: 0; */
     background-color: white;
 }
 
@@ -199,4 +198,63 @@ li .text {
 .quote .author {
     font-size: 24px;
     font-weight: 700;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+.signup-box {
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 120px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.container .text {
+    color: #E5E7EB;
+}
+
+.container .call {
+    color: white;
+    font-size: 24px;
+}
+
+.container button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    font-family: sans-serif;
+    background-color: #3882F6;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 50px;
 }
